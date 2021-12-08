@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "myscript.js" ]
+   },
+   "description": "Adds an extension to change all Amazon links to Amazon links with the tehmorag's affiliate info.",
+   "icons": {
+      "300": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDO9FkT3by4LFo/2L6VysM0xJbibv6kuYckzGIL3df8dD1lrFunDpMFq63HcRXLr7KZ+wYt+G6xi9HcxR+OedE4UuxMI3vxwkOjQZy4zfC/vUK3KJD/kSzLt++bP65gQocIfkCi6xbXy2AkifQYPYIbLfEXLID+Vgdni1SZ9epwVQIDAQAB",
+   "manifest_version": 2,
+   "name": "tehmorag Amazon Auto Affiliate",
+   "page_action": {
+      "default_icon": "icon.png",
+      "default_title": "Thank you for supporting tehmorag"
+   },
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*.amazon.ca/*", "*://*.amazon.com/*", "tabs", "*://*.amazon.co.uk/*", "*://*.amazon.de/*", "*://*.amazon.es/*", "*://*.amazon.fr/*", "*://*.amazon.it/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.9.1"
+}
